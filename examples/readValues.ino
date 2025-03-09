@@ -22,6 +22,6 @@ void loop()
     if (data.connected == true)
     {
         Serial.print("VESC Connected\n");
-        Serial.printf("FET Temp: %02f", d.tempFET);
+        Serial.printf("FET Temp: %02f", data.tempFET);
     }
 }
