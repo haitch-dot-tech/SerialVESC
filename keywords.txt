@@ -1,0 +1,11 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SerialVESC 	        KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setSerialPort		KEYWORD2
+updateVESCData		KEYWORD2
