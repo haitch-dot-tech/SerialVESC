@@ -17,9 +17,9 @@ void setup()
 
 void loop()
 {
-    d = updateVESCData();
+    data = vesc.updateVESCData();
 
-    if (d.connected == true)
+    if (data.connected == true)
     {
         Serial.print("VESC Connected\n");
         Serial.printf("FET Temp: %02f", d.tempFET);
